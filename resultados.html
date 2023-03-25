@@ -1,0 +1,819 @@
+<script src="resultados.js" type="text/javascript"></script>
+<link href="resultados.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+<div class="headerR">
+    <h1 class="Hheader">
+        Residencial El Encanto
+    </h1>
+    <p>
+        <hr>
+    <h5>
+        Estado de Resultado Cuotas de Mantenimiento
+    </h5>
+    <h6>
+        Del 1 de Enero al 31 de Diciembre de 2022
+    </h6>
+    </p>
+</div>
+<div class="offsetR ">
+
+    <body>
+        <div class="contenidoR">
+            <div class="container">
+                <br>
+                <table style="border-collapse: collapse; width: 100%; height: 20px; margin-bottom: 50px;">
+                    <tbody>
+                        <tr>
+                            <td style="width: 70%; height: 20px;">
+                            </td>
+                            <td
+                                style="width: 30%; font-family: sans-serif; text-align: center; text-decoration: underline; font-size: 40px; color: #434655;">
+                                ACUMULADO
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="row align-items-start">
+                    <div class="container text-center">
+                        <div class="subtitulo">
+                            <div class="row align-items-center">
+                                <div class="col">
+                                    <strong>
+                                        Total de Ingresos
+                                    </strong>
+                                </div>
+                                <div>
+                                    <strong>
+                                        <a style='cursor: pointer;' onClick="muestra_TIB('contenidoTIB')">
+                                            2,912,626.56
+                                        </a>
+                                    </strong>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div id="contenidoTIB">
+                            <div id="cerrarTIB"><a href="javascript:cerrarTIB()">❌</a></div>
+                            <table style="border-collapse: collapse; width: 100%; height: 30px;">
+                                <tbody>
+                                    <tr style="height: 20px;">
+                                        <td
+                                            style="width: 50%; height: 60px; font-size: larger; background-color:#fddde6; border-top-left-radius: 15px;">
+                                            <strong>
+                                                Ingresos Cuotas y Mantenimiento:
+                                            </strong>
+                                        </td>
+                                        <td
+                                            style="width: 50%; height: 60px; text-align: right; font-size: larger; background-color: #fddde6; border-top-right-radius: 15px;">
+                                            <strong>
+                                                <a style='cursor: pointer;' onClick="muestra_ICM('contenidoICM')">
+                                                    2,851,789,15
+                                                </a>
+                                            </strong>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                            <div id="contenidoICM">
+                                <table style="border-collapse: collapse; width: 100%; height: auto;">
+                                    <tbody>
+                                        <tr>
+                                            <td
+                                                style="width: 50%; height: 10px; font-size: large; background-color:#fddde6;">
+                                                Ingresos por Cuotas de Mantenimiento
+                                            </td>
+                                            <td
+                                                style="width: 50%; height: 10px; text-align: right; font-size: large; background-color:#fddde6;">
+                                                3,136,206.97
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td
+                                                style="width: 50%; height: 10px; font-size: large; background-color:#fddde6;">
+                                                Descuentos por Cuotas de Mantenimiento
+                                            </td>
+                                            <td
+                                                style="width: 50%; height: 10px; text-align: right; font-size: large; background-color:#fddde6;">
+                                                -284,408.82
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+
+
+                            <table style="border-collapse: collapse; width: 100%; height: auto;">
+                                <tbody>
+                                    <tr style="height: 40px;">
+                                        <td
+                                            style="width: 50%; height: 60px; font-size: larger; background-color:#fddde6;">
+                                            <strong>
+                                                Otros Ingresos:
+                                            </strong>
+
+                                        </td>
+                                        <td
+                                            style="width: 50%; height: 60px; text-align: right; font-size: larger; background-color:#fddde6;">
+                                            <strong>
+                                                <a style='cursor: pointer;' onClick="muestra_OIB('contenidoOIB')">
+                                                    60,828.41
+                                                </a>
+                                            </strong>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+
+                            <div id="contenidoOIB">
+                                <table style="border-collapse: collapse; width: 100%; height: 80px;">
+                                    <tbody>
+                                        <tr>
+                                            <td
+                                                style="width: 80%; height: 10px; font-size: large; background-color:#fddde6;">
+                                                Penalización
+                                            </td>
+                                            <td
+                                                style="width: 100%; height: 10px; text-align: right; font-size: large; background-color:#fddde6;">
+                                                6,402.00
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td
+                                                style="width: 80%; height: 10px; font-size: large; background-color:#fddde6;">
+                                                Intereses Moratorios
+                                            </td>
+                                            <td
+                                                style="width: 100%; height: 10px; text-align: right; font-size: large; background-color:#fddde6;">
+                                                4,082.00
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td
+                                                style="width: 80%; height: 10px; font-size: large; background-color:#fddde6;">
+                                                Intereses por Inversiones
+                                            </td>
+                                            <td
+                                                style="width: 100%; height: 10px; text-align: right; font-size: large; background-color:#fddde6;">
+                                                11,362.41
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td
+                                                style="width: 80%; height: 10px; font-size: large; background-color:#fddde6;">
+                                                Otros Ingresos
+                                            </td>
+                                            <td
+                                                style="width: 100%; height: 10px; text-align: right; font-size: large; background-color:#fddde6;">
+                                                28,342.00
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td
+                                                style="width: 80%; height: 10px; font-size: large; background-color:#fddde6; border-bottom-left-radius: 15px;">
+
+                                            </td>
+                                            <td
+                                                style="width: 100%; height: 10px; text-align: right; font-size: large; background-color:#fddde6; border-bottom-right-radius: 15px;">
+                                                10,640.00
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+                <!-- ▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀ SEGUNDA PARTE ▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀ -->
+
+
+
+
+
+
+                <div class="subtitulo">
+                    <div class="row align-items-center">
+                        <div class="col">
+                            <strong>
+                                Total de Gastos
+                            </strong>
+                        </div>
+                        <div>
+                            <strong>
+                                <a style='cursor: pointer;' onClick="muestra_TGP('contenidoTGP')">
+                                    3,345,826.65
+                                </a>
+                            </strong>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="contenidoTGP">
+
+                    <div id="cerrarTGP"><a href="javascript:cerrarTGP()">❌</a></div>
+
+                    <table style="border-collapse: collapse; width: 100%; height: 50px;">
+                        <tbody>
+                            <tr>
+                                <td
+                                    style="width: 80%; height: 10px; font-size: larger; background-color: #fddde6; border-top-left-radius: 15px;">
+                                    <Strong>
+                                        Gastos de Administracion
+                                    </Strong>
+
+                                </td>
+                                <td
+                                    style="width: 100%; height: 10px; text-align: right; font-size: larger; background-color: #fddde6; border-top-right-radius: 15px;">
+                                    <Strong>
+                                        <a style='cursor: pointer;' onClick="muestra_GA('contenidoGA')">
+                                            478,879.40
+                                        </a>
+                                    </Strong>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <div id="contenidoGA">
+                        <table style="border-collapse: collapse; width: 100%; height: 50px;">
+                            <tbody>
+                                <tr>
+                                    <td style="width: 50%; height: 10px; font-size: large; margin-bottom: 10px;">
+                                        Sueldos y Salarios
+                                    </td>
+                                    <td
+                                        style="width: 50%; height: 10px; text-align: right; font-size: large; margin-bottom: 10px;">
+                                        228,535.51
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 50%; height: 10px; font-size: large; margin-bottom: 10px;">
+                                        Aguinaldos
+                                    </td>
+                                    <td
+                                        style="width: 50%; height: 10px; text-align: right; font-size: large; margin-bottom: 10px;">
+                                        9,327.90
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 50%; height: 10px; font-size: large; margin-bottom: 10px;">
+                                        Honorarios Profesionales
+                                    </td>
+                                    <td
+                                        style="width: 50%; height: 10px; text-align: right; font-size: large; margin-bottom: 10px;">
+                                        121,982.25
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 50%; height: 10px; font-size: large; margin-bottom: 10px;">
+                                        Gastos de teléfono
+                                    </td>
+                                    <td
+                                        style="width: 50%; height: 10px; text-align: right; font-size: large; margin-bottom: 10px;">
+                                        9,894.87
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 50%; height: 10px; font-size: large; margin-bottom: 10px;">
+                                        Servicio de Internet
+                                    </td>
+                                    <td
+                                        style="width: 50%; height: 10px; text-align: right; font-size: large; margin-bottom: 10px;">
+                                        4,667.88
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 50%; height: 10px; font-size: large; margin-bottom: 10px;">
+                                        Gastos de Seguridad Social
+                                    </td>
+                                    <td
+                                        style="width: 50%; height: 10px; text-align: right; font-size: large; margin-bottom: 10px;">
+                                        43,732.07
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 50%; height: 10px; font-size: large; margin-bottom: 10px;">
+                                        Soporte de Equipo de Técnico
+                                    </td>
+                                    <td
+                                        style="width: 50%; height: 10px; text-align: right; font-size: large; margin-bottom: 10px;">
+                                        464.00
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 50%; height: 10px; font-size: large; margin-bottom: 10px;">
+                                        Papelería y Útiles de Escritorio
+                                    </td>
+                                    <td
+                                        style="width: 50%; height: 10px; text-align: right; font-size: large; margin-bottom: 10px;">
+                                        10,891.40
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 50%; height: 10px; font-size: large; margin-bottom: 10px;">
+                                        Suministros de Limpieza
+                                    </td>
+                                    <td
+                                        style="width: 50%; height: 10px; text-align: right; font-size: large; margin-bottom: 10px;">
+                                        28,169.86
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 50%; height: 10px; font-size: large; margin-bottom: 10px;">
+                                        Impuesto Sobre Nominas
+                                    </td>
+                                    <td
+                                        style="width: 50%; height: 10px; text-align: right; font-size: large; margin-bottom: 10px;">
+                                        6,767.36
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 50%; height: 10px; font-size: large; margin-bottom: 10px;">
+                                        Varios
+                                    </td>
+                                    <td
+                                        style="width: 50%; height: 10px; text-align: right; font-size: large; margin-bottom: 10px;">
+                                        6,369.00
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 50%; height: 10px; font-size: large; margin-bottom: 10px;">
+                                        Gastos de Asambleas
+                                    </td>
+                                    <td
+                                        style="width: 50%; height: 10px; text-align: right; font-size: large; margin-bottom: 10px;">
+                                        7,487.30
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 50%; height: 10px; font-size: large; margin-bottom: 10px;">
+                                        Gastos de Transporte
+                                    </td>
+                                    <td
+                                        style="width: 50%; height: 10px; text-align: right; font-size: large; margin-bottom: 10px;">
+                                        590.00
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <!-- ▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃ ADMINISTRACION ▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃-->
+
+                    <table style="border-collapse: collapse; width: 100%; height: 50px;">
+                        <tbody>
+                            <tr>
+                                <td style="width: 80%; height: 10px; font-size: larger; background-color: #fddde6;">
+                                    <Strong>
+                                        Gastos de Mantenimiento
+                                    </Strong>
+
+                                </td>
+                                <td
+                                    style="width: 100%; height: 10px; text-align: right; font-size: larger; background-color: #fddde6;">
+                                    <Strong>
+                                        <a style='cursor: pointer;' onClick="muestra_GM('contenidoGM')">
+                                            804,920.50
+                                        </a>
+                                    </Strong>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <div id="contenidoGM">
+                        <table style="border-collapse: collapse; width: 100%; height: 50px;">
+                            <tbody>
+                                <tr>
+                                    <td style="width: 50%; height: 10px; font-size: large; margin-bottom: 10px;">
+                                        Sueldos y Salarios
+                                    </td>
+                                    <td
+                                        style="width: 50%; height: 10px; text-align: right; font-size: large; margin-bottom: 10px;">
+                                        495,822.65
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 50%; height: 10px; font-size: large; margin-bottom: 10px;">
+                                        Aguinaldo
+                                    </td>
+                                    <td
+                                        style="width: 50%; height: 10px; text-align: right; font-size: large; margin-bottom: 10px;">
+                                        19,757.78
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 50%; height: 10px; font-size: large; margin-bottom: 10px;">
+                                        Prima Vacacional
+                                    </td>
+                                    <td
+                                        style="width: 50%; height: 10px; text-align: right; font-size: large; margin-bottom: 10px;">
+                                        3,910.78
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 50%; height: 10px; font-size: large; margin-bottom: 10px;">
+                                        Gastos de Seguridad Social
+                                    </td>
+                                    <td
+                                        style="width: 50%; height: 10px; text-align: right; font-size: large; margin-bottom: 10px;">
+                                        103,338.63
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 50%; height: 10px; font-size: large; margin-bottom: 10px;">
+                                        Impuesto Sobre Nomina
+                                    </td>
+                                    <td
+                                        style="width: 50%; height: 10px; text-align: right; font-size: large; margin-bottom: 10px;">
+                                        14,639.85
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 50%; height: 10px; font-size: large; margin-bottom: 10px;">
+                                        Depreciación
+                                    </td>
+                                    <td
+                                        style="width: 50%; height: 10px; text-align: right; font-size: large; margin-bottom: 10px;">
+                                        129,777.78
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 50%; height: 10px; font-size: large; margin-bottom: 10px;">
+                                        Uniformes
+                                    </td>
+                                    <td
+                                        style="width: 50%; height: 10px; text-align: right; font-size: large; margin-bottom: 10px;">
+                                        37,673.03
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <!-- ▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃ MANTENIMIENTO ▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃-->
+
+                    <table style="border-collapse: collapse; width: 100%; height: 50px;">
+                        <tbody>
+                            <tr>
+                                <td style="width: 80%; height: 10px; font-size: larger; background-color: #fddde6;">
+                                    <Strong>
+                                        Mantenimiento del Edificio
+                                    </Strong>
+                                </td>
+                                <td
+                                    style="width: 100%; height: 10px; text-align: right; font-size: larger; background-color: #fddde6;">
+                                    <Strong>
+                                        <a style='cursor: pointer;' onClick="muestra_ME('contenidoME')">
+                                            1,080,867.98
+                                        </a>
+                                    </Strong>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <div id="contenidoME">
+                        <table style="border-collapse: collapse; width: 100%; height: 50px;">
+                            <tbody>
+                                <tr>
+                                    <td style="width: 50%; height: 10px; font-size: large; margin-bottom: 10px;">
+                                        Suministros de Mantenimiento
+                                    </td>
+                                    <td
+                                        style="width: 50%; height: 10px; text-align: right; font-size: large; margin-bottom: 10px;">
+                                        30,650.78
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 50%; height: 10px; font-size: large; margin-bottom: 10px;">
+                                        Agua Potable
+                                    </td>
+                                    <td
+                                        style="width: 50%; height: 10px; text-align: right; font-size: large; margin-bottom: 10px;">
+                                        176,738.00
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 50%; height: 10px; font-size: large; margin-bottom: 10px;">
+                                        Energia Eléctrica
+                                    </td>
+                                    <td
+                                        style="width: 50%; height: 10px; text-align: right; font-size: large; margin-bottom: 10px;">
+                                        358,425.76
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 50%; height: 10px; font-size: large; margin-bottom: 10px;">
+                                        Lonas
+                                    </td>
+                                    <td
+                                        style="width: 50%; height: 10px; text-align: right; font-size: large; margin-bottom: 10px;">
+                                        19,766.40
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 50%; height: 10px; font-size: large; margin-bottom: 10px;">
+                                        Pintura
+                                    </td>
+                                    <td
+                                        style="width: 50%; height: 10px; text-align: right; font-size: large; margin-bottom: 10px;">
+                                        23,731.57
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 50%; height: 10px; font-size: large; margin-bottom: 10px;">
+                                        Derechos por Recolección de Basura
+                                    </td>
+                                    <td
+                                        style="width: 50%; height: 10px; text-align: right; font-size: large; margin-bottom: 10px;">
+                                        33,696.00
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 50%; height: 10px; font-size: large; margin-bottom: 10px;">
+                                        Gastos de Reparaciones
+                                    </td>
+                                    <td
+                                        style="width: 50%; height: 10px; text-align: right; font-size: large; margin-bottom: 10px;">
+                                        6,728.00
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 50%; height: 10px; font-size: large; margin-bottom: 10px;">
+                                        Mantenimiento de Areas Comunes
+                                    </td>
+                                    <td
+                                        style="width: 50%; height: 10px; text-align: right; font-size: large; margin-bottom: 10px;">
+                                        431,131.47
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <!-- ▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃ EDIFICIO ▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃-->
+
+                    <table style="border-collapse: collapse; width: 100%; height: 50px;">
+                        <tbody>
+                            <tr>
+                                <td style="width: 80%; height: 10px; font-size: larger; background-color: #fddde6;">
+                                    <Strong>
+                                        Mantenimiento del Albercas
+                                    </Strong>
+
+                                </td>
+                                <td
+                                    style="width: 100%; height: 10px; text-align: right; font-size: larger; background-color: #fddde6;">
+                                    <Strong>
+                                        <a style='cursor: pointer;' onClick="muestra_MA('contenidoMA')">
+                                            87,950.57
+                                        </a>
+                                    </Strong>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <div id="contenidoMA">
+                        <table style="border-collapse: collapse; width: 100%; height: 50px;">
+                            <tbody>
+                                <tr>
+                                    <td style="width: 50%; height: 10px; font-size: large; margin-bottom: 10px;">
+                                        Productos Quimicos
+                                    </td>
+                                    <td
+                                        style="width: 50%; height: 10px; text-align: right; font-size: large; margin-bottom: 10px;">
+                                        48,606.86
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 50%; height: 10px; font-size: large; margin-bottom: 10px;">
+                                        Mantenimiento Preventivo
+                                    </td>
+                                    <td
+                                        style="width: 50%; height: 10px; text-align: right; font-size: large; margin-bottom: 10px;">
+                                        5,916.00
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 50%; height: 10px; font-size: large; margin-bottom: 10px;">
+                                        Mantenimiento de Bombas y Regulares
+                                    </td>
+                                    <td
+                                        style="width: 50%; height: 10px; text-align: right; font-size: large; margin-bottom: 10px;">
+                                        14,981.02
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 50%; height: 10px; font-size: large; margin-bottom: 10px;">
+                                        Cubiertas Termostaticas
+                                    </td>
+                                    <td
+                                        style="width: 50%; height: 10px; text-align: right; font-size: large; margin-bottom: 10px;">
+                                        18,446.69
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <!-- ▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃ ALBERCAS ▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃-->
+
+                    <table style="border-collapse: collapse; width: 100%; height: 50px;">
+                        <tbody>
+                            <tr>
+                                <td style="width: 80%; height: 10px; font-size: larger; background-color: #fddde6;">
+                                    <Strong>
+                                        Gastos de Jardineria
+                                    </Strong>
+
+                                </td>
+                                <td
+                                    style="width: 100%; height: 10px; text-align: right; font-size: larger; background-color: #fddde6;">
+                                    <Strong>
+                                        <a style='cursor: pointer;' onClick="muestra_GJ('contenidoGJ')">
+                                            282,291.87
+                                        </a>
+                                    </Strong>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <div id="contenidoGJ">
+                        <table style="border-collapse: collapse; width: 100%; height: 50px;">
+                            <tbody>
+                                <tr>
+                                    <td style="width: 50%; height: 10px; font-size: large; margin-bottom: 10px;">
+                                        Jardineria y Fumigación
+                                    </td>
+                                    <td
+                                        style="width: 50%; height: 10px; text-align: right; font-size: large; margin-bottom: 10px;">
+                                        40,287.88
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 50%; height: 10px; font-size: large; margin-bottom: 10px;">
+                                        Jardineria sin Requisitos
+                                    </td>
+                                    <td
+                                        style="width: 50%; height: 10px; text-align: right; font-size: large; margin-bottom: 10px;">
+                                        785.00
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 50%; height: 10px; font-size: large; margin-bottom: 10px;">
+                                        Suledo y Salarios
+                                    </td>
+                                    <td
+                                        style="width: 50%; height: 10px; text-align: right; font-size: large; margin-bottom: 10px;">
+                                        199,260.91
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 50%; height: 10px; font-size: large; margin-bottom: 10px;">
+                                        Gastos de Segurdad Social
+                                    </td>
+                                    <td
+                                        style="width: 50%; height: 10px; text-align: right; font-size: large; margin-bottom: 10px;">
+                                        37,384.89
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 50%; height: 10px; font-size: large; margin-bottom: 10px;">
+                                        Impuesto Sobre Nomina
+                                    </td>
+                                    <td
+                                        style="width: 50%; height: 10px; text-align: right; font-size: large; margin-bottom: 10px;">
+                                        4,573.19
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <!-- ▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃ JARDINERIA  ▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃-->
+
+                    <table style="border-collapse: collapse; width: 100%; height: 50px;">
+                        <tbody>
+                            <tr>
+                                <td
+                                    style="width: 80%; height: 10px; font-size: larger; background-color: #fddde6; border-bottom-left-radius: 15px;">
+                                    <Strong>
+                                        Gastos de Seguridad
+                                    </Strong>
+
+                                </td>
+                                <td
+                                    style="width: 100%; height: 10px; text-align: right; font-size: larger; background-color: #fddde6; border-bottom-right-radius: 15px;">
+                                    <Strong>
+                                        <a style='cursor: pointer;' onClick="muestra_GS('contenidoGS')">
+                                            610,916.33
+                                        </a>
+                                    </Strong>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <div id="contenidoGS">
+                        <table style="border-collapse: collapse; width: 100%; height: 50px;">
+                            <tbody>
+                                <tr>
+                                    <td style="width: 50%; height: 10px; font-size: large; margin-bottom: 10px;">
+                                        Sueldos y Salarios
+                                    </td>
+                                    <td
+                                        style="width: 50%; height: 10px; text-align: right; font-size: large; margin-bottom: 10px;">
+                                        451,668.75
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 50%; height: 10px; font-size: large; margin-bottom: 10px;">
+                                        Aguinaldos
+                                    </td>
+                                    <td
+                                        style="width: 50%; height: 10px; text-align: right; font-size: large; margin-bottom: 10px;">
+                                        16,267.88
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 50%; height: 10px; font-size: large; margin-bottom: 10px;">
+                                        Gastos de Seguridad Social
+                                    </td>
+                                    <td
+                                        style="width: 50%; height: 10px; text-align: right; font-size: large; margin-bottom: 10px;">
+                                        97,102.44
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 50%; height: 10px; font-size: large; margin-bottom: 10px;">
+                                        Servicios de Seguridad
+                                    </td>
+                                    <td
+                                        style="width: 50%; height: 10px; text-align: right; font-size: large; margin-bottom: 10px;">
+                                        33,408.00
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 50%; height: 10px; font-size: large; margin-bottom: 10px; ">
+                                        Impuesto Sobre Nominas
+                                    </td>
+                                    <td
+                                        style="width: 50%; height: 10px; text-align: right; font-size: large; margin-bottom: 10px; ">
+                                        12,469.26
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <!-- ▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃ SEGURIDAD ▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃-->
+
+                </div>
+                <div class="subtitulo">
+                    <div class="row align-items-center">
+                        <div class="col">
+                            <strong>
+                                Resultados del Ejercicio (Ahorro/Desahorro)
+                            </strong>
+                        </div>
+                        <div>
+                            <strong>
+                                -433,200.09
+                            </strong>
+                        </div>
+                    </div>
+                    <br>
+                    <hr class="shine">
+                </div>
+                <br>
+            </div>
+        </div>
+        <button class=" button-82-pushable" role="button">
+            <span class="button-82-shadow"></span>
+            <span class="button-82-edge"></span>
+            <span class="button-82-front text"><a href="index1.html"
+                    style="text-decoration: none; color: #2b2b2b;">Regresar
+                    ⟳</a>
+            </span>
+        </button>
+    </body>
+</div>
+<hr>
+<footer>
+    <p> &copy; - Residencial Encanto</p>
+</footer>

@@ -1,0 +1,323 @@
+::-webkit-scrollbar-track {
+    border: 5px solid white;
+    background-color: #7b8488;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+    background-color: #dfe6e9;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #424242;
+    border-radius: 3px;
+}
+
+/**********************************************************************************************BOTON REGRESAR*/
+.button-82-pushable {
+    position: relative;
+    margin-top: auto;
+    margin-left: auto;
+    border: none;
+    background: transparent;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
+    transition: filter 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+
+
+.button-82-shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    background: hsl(0deg 0% 0% / 0.25);
+    will-change: transform;
+    transform: translateY(2px);
+    transition:
+        transform 600ms cubic-bezier(.3, .7, .4, 1);
+}
+
+.button-82-edge {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    background: linear-gradient(to left,
+            #979797 0%,
+            #797979 8%,
+            #797979 92%,
+            #979797 100%);
+}
+
+.button-82-front {
+    display: block;
+    position: relative;
+    padding: 12px 27px;
+    border-radius: 12px;
+    font-size: 1.1rem;
+    color: white;
+    background: #e6e6e6;
+    will-change: transform;
+    transform: translateY(-4px);
+    transition:
+        transform 600ms cubic-bezier(.3, .7, .4, 1);
+}
+
+@media (min-width: 768px) {
+    .button-82-front {
+        font-size: 2rem;
+        padding: 2px 8px;
+        font-weight: bolder;
+        color: rgb(184, 184, 184);
+        text-decoration: none;
+    }
+}
+
+.button-82-pushable:hover {
+    filter: brightness(110%);
+    -webkit-filter: brightness(110%);
+}
+
+.button-82-pushable:hover .button-82-front {
+    transform: translateY(-6px);
+    transition:
+        transform 250ms cubic-bezier(.3, .7, .4, 1.5);
+}
+
+.button-82-pushable:active .button-82-front {
+    transform: translateY(-2px);
+    transition: transform 34ms;
+}
+
+.button-82-pushable:hover .button-82-shadow {
+    transform: translateY(4px);
+    transition:
+        transform 250ms cubic-bezier(.3, .7, .4, 1.5);
+}
+
+.button-82-pushable:active .button-82-shadow {
+    transform: translateY(1px);
+    transition: transform 34ms;
+}
+
+.button-82-pushable:focus:not(:focus-visible) {
+    outline: none;
+}
+
+/*******************************************************************************************FIN BOTON REGRESAR*/
+
+body {
+    background: #f1f1f1;
+    font-family: 'Inconsolata', monospace;
+    font-weight: bold;
+    color: gray;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+}
+body {
+    background: linear-gradient(rgba(83, 83, 83, 0.7), rgba(255, 255, 255, 0.905));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+footer {
+    top: 10px;
+    height: 20vh;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #434655;
+    font-size: larger;
+    text-align: center;
+}
+
+body {
+    height: 700px;
+    background: url(https://www.brainpickings.org/wp-content/themes/brainpickings/images/bckgd_body.png);
+}
+
+.headerI {
+    position: relative;
+    width: 100%;
+    height: 140px;
+    font-weight: bold;
+    text-align: center;
+    background: #9B9873;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.contenidoI {
+    text-decoration: none;
+    background-color: #D5DAC0;
+    margin-left: 50px;
+    margin-right: 50px;
+    box-shadow: rgba(38, 57, 77, 0.616) 0px 20px 30px 5px;
+    border-radius: 10px;
+    color: #4E4F52;
+}
+
+.offsetI {
+    margin-top: 0px;
+    padding-top: 100px;
+    text-align: center;
+    transition: 0.3s;
+}
+.Hheader {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 50px;
+    letter-spacing: 2px;
+    word-spacing: 0px;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 15px;
+    color: white;
+    margin-left: 50px;
+}
+
+h5 {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    text-align: center;
+    font-weight: 700;
+    margin-left: 60px;
+    color: white;
+    line-height: 40px;
+}
+
+.subtitulo {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #4d4d4d;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    line-height: 50px;
+}
+
+
+.box-wrap {
+    display: flex;
+    align-items: center;
+    margin: 3%;
+}
+
+.box {
+    background: rgb(223, 221, 204);
+    width: 330px;
+    border: 1px solid #d6d6d6;
+    box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    transition: .2s all;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.box-wrap:hover .box {
+    filter: blur(3px);
+    opacity: .5;
+    transform: scale(.98);
+    box-shadow: none;
+    position:sticky;
+    margin-left: 30px;
+}
+
+.box-wrap:hover .box:hover {
+    transform: scale(1);
+    filter: blur(0px);
+    opacity: 1;
+    box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0.125);
+    margin-right: 20px;
+}
+
+
+.btn-shine {
+    top: 0px;
+    left:250px;
+    right: 250px;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    background: linear-gradient(to right, #52545f 0, #c5c5c5 10%, #52545f 20%);
+    background-position: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 5s infinite linear;
+    animation-fill-mode: forwards;
+    -webkit-text-size-adjust: none;
+    font-weight: 600;
+    font-size: 23px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+@-moz-keyframes shine {
+    0% {
+        background-position: 0;
+    }
+
+    60% {
+        background-position: 300px;
+    }
+
+    100% {
+        background-position: 500px;
+    }
+}
+
+@-webkit-keyframes shine {
+    0% {
+        background-position: 0;
+    }
+
+    60% {
+        background-position: 300px;
+    }
+
+    100% {
+        background-position: 500px;
+    }
+}
+
+@-o-keyframes shine {
+    0% {
+        background-position: 0;
+    }
+
+    60% {
+        background-position: 300px;
+    }
+
+    100% {
+        background-position: 500px;
+    }
+}
+
+@keyframes shine {
+    0% {
+        background-position: 0;
+    }
+
+    60% {
+        background-position: 300px;
+    }
+
+    100% {
+        background-position: 500px;
+    }
+}
